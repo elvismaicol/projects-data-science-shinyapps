@@ -1,0 +1,13 @@
+name: industria
+title: industria
+username:
+account: elvismaster
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5492836
+bundleId: 5499430
+url: https://elvismaster.shinyapps.io/industria/
+when: 1642966019.54059
+lastSyncTime: 1642966019.54059
+asMultiple: FALSE
+asStatic: FALSE

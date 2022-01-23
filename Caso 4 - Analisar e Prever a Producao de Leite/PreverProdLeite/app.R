@@ -3,14 +3,13 @@ library(shiny)
 library(forecast)
 #Pacote para gerar elementos gráficos
 library(ggplot2)
-#library(shinythemes)
+
 
 # Define UI for application that draws a histogram
-ui <- fluidPage( #shinythemes::themeSelector(),
-    
+ui <- fluidPage( 
 
     # Application title
-    titlePanel("Sistema de Análise e Previsão da Pordução de Leite"),
+    titlePanel("Sistema de Análise e Previsão da Produção de Leite"),
     
     fluidRow(
         # abre uma janela para selecionar o arquivo.
@@ -25,7 +24,7 @@ ui <- fluidPage( #shinythemes::themeSelector(),
                #start -> data que por padrão vai aparecer no início da execução da aplicação
                #end -> data que por padrão vai aparecer no início da execução da aplicação
                # separador -> texto q ficará entre as datas start e end
-               dateRangeInput('datas', label = "Período da Série", format = "mm/yyyy", language = "pt", start = "2000/01/01", end = "2013/12/31", startview = "year", separator = " até "),
+               dateRangeInput('datas', label = "Período da Série", format = "mm/yyyy", language = "pt", start = "2008/01/01", end = "2021/12/31", startview = "year", separator = " até "),
                helpText("Observação: para definir mês e ano, selecione um dia qualquer")
                ),
         column(4,
