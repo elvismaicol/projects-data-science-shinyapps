@@ -1,0 +1,6 @@
+# rsconnect folder
+*/.rsconnect/*
+
+# RStudio files
+.Rproj.user/
+*.Rproj
