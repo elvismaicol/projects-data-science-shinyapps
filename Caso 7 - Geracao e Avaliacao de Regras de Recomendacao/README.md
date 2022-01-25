@@ -11,7 +11,7 @@ Essa aplicação então, foi desenvolvida para minerar uma base de dados lista d
 </br>
 
 * [R](https://www.r-project.org/)
-</br> Utilizado o algoritmo <a href="https://www.rdocumentation.org/packages/arules/versions/1.6-6/topics/apriori" rel="nofollow">apriori</a> para mineiração de regras de associação.
+</br> Utilizado o algoritmo <a href="https://www.rdocumentation.org/packages/arules/versions/1.6-6/topics/apriori" rel="nofollow">apriori</a> para mineração de regras de associação.
 * [Shiny](https://shiny.rstudio.com/)
 
 <div styLe="display:inline_block" >
